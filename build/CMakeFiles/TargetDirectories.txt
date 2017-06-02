@@ -1,3 +1,0 @@
-F:/Sergey_projects/test1/build/CMakeFiles/test1.dir
-F:/Sergey_projects/test1/build/CMakeFiles/ALL_BUILD.dir
-F:/Sergey_projects/test1/build/CMakeFiles/ZERO_CHECK.dir
