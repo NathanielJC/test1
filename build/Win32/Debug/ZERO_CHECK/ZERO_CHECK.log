@@ -1,0 +1,16 @@
+﻿Сборка начата 10.04.2017 12:28:43.
+     1>Проект "F:\Sergey_projects\test1\build\ZERO_CHECK.vcxproj" в узле 2 (целевые объекты Build).
+     1>CustomBuild:
+         Checking Build System
+         CMake is re-running because F:/Sergey_projects/test1/build/CMakeFiles/generate.stamp is out-of-date.
+           the file 'F:/Sergey_projects/test1/CMakeLists.txt'
+           is newer than 'F:/Sergey_projects/test1/build/CMakeFiles/generate.stamp.depend'
+           result='-1'
+         -- Configuring done
+         -- Generating done
+         -- Build files have been written to: F:/Sergey_projects/test1/build
+     1>Сборка проекта "F:\Sergey_projects\test1\build\ZERO_CHECK.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.07

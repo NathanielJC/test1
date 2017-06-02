@@ -1,0 +1,1 @@
+set(AM_OLD_COMPILE_SETTINGS "QT_CORE_LIB;QT_GUI_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;UNICODE;WIN32;WINDOWS;_SCL_SECURE_NO_WARNINGS ~~~ F:/Qt5_4_1/5.4/msvc2013/include;F:/Qt5_4_1/5.4/msvc2013/include/QtCore;F:/Qt5_4_1/5.4/msvc2013/mkspecs/win32-msvc2013;F:/Qt5_4_1/5.4/msvc2013/include/QtWidgets;F:/Qt5_4_1/5.4/msvc2013/include/QtGui ~~~  ~~~ FALSE ~~~ ")

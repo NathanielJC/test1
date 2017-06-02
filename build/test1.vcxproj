@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E743EFA0-6408-3DCC-B202-F405CDF0D3FA}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>test1</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Sergey_projects\test1\build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test1.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">test1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\Sergey_projects\test1\build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test1.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">test1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\Sergey_projects\test1\build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">test1.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">test1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\Sergey_projects\test1\build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">test1.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">test1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PreprocessorDefinitions>_DEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;UNICODE;WIN32;_SCL_SECURE_NO_WARNINGS;WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;UNICODE;WIN32;_SCL_SECURE_NO_WARNINGS;WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target test1</Message>
+      <Command>setlocal
+cd F:\Sergey_projects\test1\build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen F:/Sergey_projects/test1/build/CMakeFiles/test1_automoc.dir/ Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Widgetsd.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Guid.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Cored.lib;F:\Qt5_4_1\5.4\msvc2013\lib\qtmaind.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Sergey_projects/test1/build/bin/Debug/test1.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Sergey_projects/test1/build/bin/Debug/test1.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PreprocessorDefinitions>NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;UNICODE;WIN32;_SCL_SECURE_NO_WARNINGS;WINDOWS;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;UNICODE;WIN32;_SCL_SECURE_NO_WARNINGS;WINDOWS;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target test1</Message>
+      <Command>setlocal
+cd F:\Sergey_projects\test1\build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen F:/Sergey_projects/test1/build/CMakeFiles/test1_automoc.dir/ Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Widgets.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Gui.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Core.lib;F:\Qt5_4_1\5.4\msvc2013\lib\qtmain.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Sergey_projects/test1/build/bin/Release/test1.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Sergey_projects/test1/build/bin/Release/test1.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PreprocessorDefinitions>NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;UNICODE;WIN32;_SCL_SECURE_NO_WARNINGS;WINDOWS;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;UNICODE;WIN32;_SCL_SECURE_NO_WARNINGS;WINDOWS;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target test1</Message>
+      <Command>setlocal
+cd F:\Sergey_projects\test1\build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen F:/Sergey_projects/test1/build/CMakeFiles/test1_automoc.dir/ MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Widgets.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Gui.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Core.lib;F:\Qt5_4_1\5.4\msvc2013\lib\qtmain.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Sergey_projects/test1/build/bin/MinSizeRel/test1.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Sergey_projects/test1/build/bin/MinSizeRel/test1.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PreprocessorDefinitions>NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;UNICODE;WIN32;_SCL_SECURE_NO_WARNINGS;WINDOWS;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;UNICODE;WIN32;_SCL_SECURE_NO_WARNINGS;WINDOWS;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Qt5_4_1\5.4\msvc2013\include;F:\Qt5_4_1\5.4\msvc2013\include\QtCore;F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013;F:\Qt5_4_1\5.4\msvc2013\include\QtWidgets;F:\Qt5_4_1\5.4\msvc2013\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target test1</Message>
+      <Command>setlocal
+cd F:\Sergey_projects\test1\build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen F:/Sergey_projects/test1/build/CMakeFiles/test1_automoc.dir/ RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Widgets.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Gui.lib;F:\Qt5_4_1\5.4\msvc2013\lib\Qt5Core.lib;F:\Qt5_4_1\5.4\msvc2013\lib\qtmain.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Sergey_projects/test1/build/bin/RelWithDebInfo/test1.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Sergey_projects/test1/build/bin/RelWithDebInfo/test1.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Sergey_projects\test1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/Sergey_projects/test1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/Sergey_projects/test1 -BF:/Sergey_projects/test1/build --check-stamp-file F:\Sergey_projects\test1\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/Sergey_projects/test1/CMakeLists.txt;F:\Sergey_projects\test1\CMakeLists.txt;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\Sergey_projects\test1\imit_inf.qrc;C:\Program Files\CMake\share\cmake-3.4\Modules\AutogenInfo.cmake.in;F:\Sergey_projects\test1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Sergey_projects\test1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/Sergey_projects/test1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/Sergey_projects/test1 -BF:/Sergey_projects/test1/build --check-stamp-file F:\Sergey_projects\test1\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/Sergey_projects/test1/CMakeLists.txt;F:\Sergey_projects\test1\CMakeLists.txt;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\Sergey_projects\test1\imit_inf.qrc;C:\Program Files\CMake\share\cmake-3.4\Modules\AutogenInfo.cmake.in;F:\Sergey_projects\test1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\Sergey_projects\test1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/Sergey_projects/test1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/Sergey_projects/test1 -BF:/Sergey_projects/test1/build --check-stamp-file F:\Sergey_projects\test1\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/Sergey_projects/test1/CMakeLists.txt;F:\Sergey_projects\test1\CMakeLists.txt;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\Sergey_projects\test1\imit_inf.qrc;C:\Program Files\CMake\share\cmake-3.4\Modules\AutogenInfo.cmake.in;F:\Sergey_projects\test1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\Sergey_projects\test1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/Sergey_projects/test1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/Sergey_projects/test1 -BF:/Sergey_projects/test1/build --check-stamp-file F:\Sergey_projects\test1\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/Sergey_projects/test1/CMakeLists.txt;F:\Sergey_projects\test1\CMakeLists.txt;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;F:\Sergey_projects\test1\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;F:\Qt5_4_1\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\Sergey_projects\test1\imit_inf.qrc;C:\Program Files\CMake\share\cmake-3.4\Modules\AutogenInfo.cmake.in;F:\Sergey_projects\test1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\Sergey_projects\test1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Sergey_projects\test1\imit_inf.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_imit_inf.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+F:\Qt5_4_1\5.4\msvc2013\bin\rcc.exe -name imit_inf -o F:/Sergey_projects/test1/build/qrc_imit_inf.cpp F:/Sergey_projects/test1/imit_inf.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/Sergey_projects/test1/imit_inf.qrc;F:\Sergey_projects\test1\img\settings.png;F:\Sergey_projects\test1\img\add.png;F:\Sergey_projects\test1\img\delete.png;F:\Sergey_projects\test1\img\Find.png;F:\Sergey_projects\test1\img\Interval.png;F:\Sergey_projects\test1\img\ok.png;F:\Sergey_projects\test1\img\cancel.png;F:\Sergey_projects\test1\img\B_p.png;F:\Sergey_projects\test1\build\imit_inf.qrc.depends;F:\Sergey_projects\test1\imit_inf.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Sergey_projects\test1\build\qrc_imit_inf.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_imit_inf.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+F:\Qt5_4_1\5.4\msvc2013\bin\rcc.exe -name imit_inf -o F:/Sergey_projects/test1/build/qrc_imit_inf.cpp F:/Sergey_projects/test1/imit_inf.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/Sergey_projects/test1/imit_inf.qrc;F:\Sergey_projects\test1\img\settings.png;F:\Sergey_projects\test1\img\add.png;F:\Sergey_projects\test1\img\delete.png;F:\Sergey_projects\test1\img\Find.png;F:\Sergey_projects\test1\img\Interval.png;F:\Sergey_projects\test1\img\ok.png;F:\Sergey_projects\test1\img\cancel.png;F:\Sergey_projects\test1\img\B_p.png;F:\Sergey_projects\test1\build\imit_inf.qrc.depends;F:\Sergey_projects\test1\imit_inf.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\Sergey_projects\test1\build\qrc_imit_inf.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_imit_inf.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+F:\Qt5_4_1\5.4\msvc2013\bin\rcc.exe -name imit_inf -o F:/Sergey_projects/test1/build/qrc_imit_inf.cpp F:/Sergey_projects/test1/imit_inf.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/Sergey_projects/test1/imit_inf.qrc;F:\Sergey_projects\test1\img\settings.png;F:\Sergey_projects\test1\img\add.png;F:\Sergey_projects\test1\img\delete.png;F:\Sergey_projects\test1\img\Find.png;F:\Sergey_projects\test1\img\Interval.png;F:\Sergey_projects\test1\img\ok.png;F:\Sergey_projects\test1\img\cancel.png;F:\Sergey_projects\test1\img\B_p.png;F:\Sergey_projects\test1\build\imit_inf.qrc.depends;F:\Sergey_projects\test1\imit_inf.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\Sergey_projects\test1\build\qrc_imit_inf.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_imit_inf.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+F:\Qt5_4_1\5.4\msvc2013\bin\rcc.exe -name imit_inf -o F:/Sergey_projects/test1/build/qrc_imit_inf.cpp F:/Sergey_projects/test1/imit_inf.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/Sergey_projects/test1/imit_inf.qrc;F:\Sergey_projects\test1\img\settings.png;F:\Sergey_projects\test1\img\add.png;F:\Sergey_projects\test1\img\delete.png;F:\Sergey_projects\test1\img\Find.png;F:\Sergey_projects\test1\img\Interval.png;F:\Sergey_projects\test1\img\ok.png;F:\Sergey_projects\test1\img\cancel.png;F:\Sergey_projects\test1\img\B_p.png;F:\Sergey_projects\test1\build\imit_inf.qrc.depends;F:\Sergey_projects\test1\imit_inf.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\Sergey_projects\test1\build\qrc_imit_inf.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Sergey_projects\test1\gui.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\AbWidg.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\AbSetDialog.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\ExSetDialog.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\Imitation_List.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\Dialog_val.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\Action_CD.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\Save_Class.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\message.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\Contr.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\BV.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\Imit_ab.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\State.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\BV_ot_do_class.h" />
+    <ClInclude Include="F:\Sergey_projects\test1\rui.h" />
+    <ClCompile Include="F:\Sergey_projects\test1\main.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\gui.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\AbWidg.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\AbSetDialog.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\ExSetDialog.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\Imitation_List.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\Dialog_val.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\Action_CD.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\Save_Class.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\message.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\Contr.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\BV.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\Imit_ab.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\State.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\BV_ot_do_class.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\rui.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\build\qrc_imit_inf.cpp"  />
+    <ClCompile Include="F:\Sergey_projects\test1\build\test1_automoc.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/Sergey_projects/test1/build/ZERO_CHECK.vcxproj">
+      <Project>9896ACA0-15FF-3533-BD0D-1E7698572655</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

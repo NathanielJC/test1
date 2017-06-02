@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imit_ab name = "", id = "", enable = "", adr = "", subadr = "", count = "">
+	<states>
+		<state name = "", bv_enable = "">
+			<SD_ARR>
+				<SD val = "04FF" />
+				<SD val = "FDFF" />
+				<SD val = "F840" />
+			</SD_ARR>
+			<BV_ARR>
+			  <BV ot = "", do = "" />
+			  <BV ot = "", do = "" />
+			  <BV ot = "", do = "" />
+			</BV_ARR>  
+			<Contr_arr>
+			  <Contr id = "" start = "">
+				<message adr = "", subadr = "", count = "">
+					<SD_ARR>
+						<SD val = "04FF" />
+						<SD val = "FDFF" />
+						<SD val = "F840" />
+					</SD_ARR>
+				</message>		
+			  </Contr>
+			</Contr_arr>
+		</state>
+	</states>
+</imit_ab>  

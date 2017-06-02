@@ -1,0 +1,43 @@
+﻿Сборка начата 10.04.2017 12:42:31.
+     1>Проект "F:\Sergey_projects\test1\build\test1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PreBuildEvent:
+         setlocal
+         cd F:\Sergey_projects\test1\build
+         if %errorlevel% neq 0 goto :cmEnd
+         F:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen F:/Sergey_projects/test1/build/CMakeFiles/test1_automoc.dir/ Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       ClCompile:
+         F:\Visual Studio 2013\VC\bin\CL.exe /c /IF:\Qt5_4_1\5.4\msvc2013\include /IF:\Qt5_4_1\5.4\msvc2013\include\QtCore /I"F:\Qt5_4_1\5.4\msvc2013\mkspecs\win32-msvc2013" /IF:\Qt5_4_1\5.4\msvc2013\include\QtWidgets /IF:\Qt5_4_1\5.4\msvc2013\include\QtGui /Zi /nologo /W1 /WX- /Od /Ob0 /Oy- /D _DEBUG /D QT_CORE_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D UNICODE /D WIN32 /D _SCL_SECURE_NO_WARNINGS /D WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHa /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"test1.dir\Debug\\" /Fd"test1.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt F:\Sergey_projects\test1\build\test1_automoc.cpp
+         test1_automoc.cpp
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(21): error C2011: qt_meta_stringdata_SettingsDialog_t: переопределение типа "struct"
+                 f:\sergey_projects\test1\build\moc_AbSetDialog.cpp(21): см. объявление "qt_meta_stringdata_SettingsDialog_t"
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(30): error C2370: qt_meta_stringdata_SettingsDialog: переопределение; другой класс хранения
+                 f:\sergey_projects\test1\build\moc_AbSetDialog.cpp(30): см. объявление "qt_meta_stringdata_SettingsDialog"
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(32): error C2027: использование неопределенного типа "qt_meta_stringdata_SettingsDialog_t"
+                 f:\sergey_projects\test1\build\moc_AbSetDialog.cpp(21): см. объявление "qt_meta_stringdata_SettingsDialog_t"
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(32): error C2227: выражение слева от "->stringdata" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(33): error C2027: использование неопределенного типа "qt_meta_stringdata_SettingsDialog_t"
+                 f:\sergey_projects\test1\build\moc_AbSetDialog.cpp(21): см. объявление "qt_meta_stringdata_SettingsDialog_t"
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(33): error C2227: выражение слева от "->stringdata" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(34): error C2027: использование неопределенного типа "qt_meta_stringdata_SettingsDialog_t"
+                 f:\sergey_projects\test1\build\moc_AbSetDialog.cpp(21): см. объявление "qt_meta_stringdata_SettingsDialog_t"
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(34): error C2227: выражение слева от "->stringdata" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(35): error C2027: использование неопределенного типа "qt_meta_stringdata_SettingsDialog_t"
+                 f:\sergey_projects\test1\build\moc_AbSetDialog.cpp(21): см. объявление "qt_meta_stringdata_SettingsDialog_t"
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(35): error C2227: выражение слева от "->stringdata" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(39): error C2078: слишком много инициализаторов
+     1>f:\sergey_projects\test1\build\moc_rui.cpp(39): fatal error C1903: не удается восстановить после предыдущих ошибок; остановка компиляции
+     1>Сборка проекта "F:\Sergey_projects\test1\build\test1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:00.96
